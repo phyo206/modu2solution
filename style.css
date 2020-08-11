@@ -1,0 +1,192 @@
+html,body{
+    background-color: #dfd5d5;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#section1{
+    float: right;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 5px 40px 5px 40px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(236, 163, 176);
+
+}
+#section2{
+    float: right;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 5px 40px 5px 40px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(182, 43, 136);
+    color: #ffffff;
+
+}
+#section3{
+    float: right;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 5px 40px 5px 40px;
+    text-align: center;
+    font-weight: bold;
+    background-color: sandybrown;
+
+}
+p{
+    margin : 50px 10px 0 0;
+}
+
+
+/*Desktop View*/
+@media (min-width:992px){
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-4, .col-lg-5, .col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12 {
+        float: left;
+        border: 3px solid black;
+        box-sizing: border-box;
+        margin: 10px;
+        background-color: #808080;
+        width:30%;
+        font-weight: bold;
+        border-radius: 5px;
+        
+    }
+}
+/*Table view*/
+@media (min-width:768px) and (max-width:991px){
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12 {
+        width: 50%;
+        box-sizing: border-box;
+    }
+    #section1{
+        float: right;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+        padding: 5px 30px 5px 30px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(236, 163, 176);
+    
+    }
+    #section2{
+        float: right;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+        padding: 5px 30px 5px 30px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(182, 43, 136);
+        color: #ffffff;
+    
+    }
+    #section3{
+        float: right;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+        padding: 5px 30px 5px 30px;
+        text-align: center;
+        font-weight: bold;
+        background-color: sandybrown;
+        margin-bottom: 50px;
+    
+    }
+    #header{
+        width: 50%;
+        text-align: center;
+    }
+    #div1{
+        float: left;
+        border: 3px solid black;
+        margin: 20px;
+        background-color: #808080;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #div2{
+        float: right;
+        border: 3px solid black;
+        margin: 20px;
+        background-color: #808080;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #div3{
+        float: left;
+        border: 3px solid black;
+        margin: 20px;
+        background-color: #808080;
+        border-radius: 5px;
+        font-weight: bold;
+    }   
+}
+
+/*Moile veiw*/
+@media (max-width:767px){
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-4, .col-sm-5, .col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12 {
+        box-sizing: border-box;
+        width: 80%;
+        margin: auto;
+    }
+    #section1{
+        float: right;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+        padding: 5px 30px 5px 30px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(236, 163, 176);
+    
+    }
+    #section2{
+        float: right;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+        padding: 5px 30px 5px 30px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(182, 43, 136);
+        color: #ffffff;
+    
+    }
+    #section3{
+        float: right;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+        padding: 5px 30px 5px 30px;
+        text-align: center;
+        font-weight: bold;
+        background-color: sandybrown;
+        margin-bottom: 50px;
+    
+    }
+    #div1{
+        border: 3px solid black;
+        margin: 20px;
+        background-color: #808080;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #div2{
+        border: 3px solid black;
+        margin: 20px;
+        background-color: #808080;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #div3{
+        border: 3px solid black;
+        margin: 20px;
+        background-color: #808080;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+}
+
